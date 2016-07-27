@@ -7,8 +7,8 @@ See the [Demo](http://htmlpreview.github.io/?https://github.com/chernj/optimer/b
 ### Implementation
 
 Trying to create a simple timer using `setTimeout()` or `setInterval()` [is often not a good idea](http://stackoverflow.com/questions/196027/is-there-a-more-accurate-way-to-create-a-javascript-timer-than-settimeout)
-as they cannot be relied upon to accurately keep track of time. In order to work around this, a [proposed solution](https://www.sitepoint.com/creating-accurate-timers-in-javascript/) involves adjusting
-for the error difference and re-adjusting the timer every set interval, usually around 100 or 1000 milliseconds.
+as they cannot be relied upon to accurately keep track of time. In order to work around this, a [proposed solution](https://www.sitepoint.com/creating-accurate-timers-in-javascript/) involves calculating
+the error difference and re-adjusting the timer every set interval, usually around 100 or 1000 milliseconds.
 
 While this solution is certainly effective, it can also be inefficient. If we need an event to fire several seconds later, we would
 end up re-calculating errors that occur many times over. Instead, optimer runs the timer for a majority of the way through and
