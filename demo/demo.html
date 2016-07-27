@@ -1,0 +1,42 @@
+<html>
+  <head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+	<link rel="stylesheet" href="simple.css">
+  </head>
+  <body>
+	<div style="text-align: center; margin-top: 10%" class="container">
+		<div class="row">
+			<h1 id="run" class="col s8 offset-s2">-</h1>
+		</div>
+		<div class="row">
+			<h5 class="col s6 offset-s3"><a contenteditable="true" id="editrun">-</a><span id="more"> more runs</span></h5>
+		</div>
+		<div style="margin-bottom: 50px;">
+			<label id="slideval" 
+			style="display: block; padding: 10px; font-size: 28;">500</label>
+			<div style="max-width: 800px; width: auto; margin: 0 auto;">
+			  <div class="row">
+				<button id="play" class="col s2 left waves-effect waves-light btn-large"
+				style="width: 12.5%; margin: 0;">Play</button>
+				<input type="range" min="100" max="1000" value="500" class="col s9 left"
+					step="25" id="increment" style="padding: 11px 0px 0px 0px;"></input>
+				<button id="reset" class="col s2 left waves-effect waves-light btn-large"
+				style="width: 12.5%; margin: 0;">Reset</button>
+			  </div>
+			</div>
+		</div>
+		<div id="buttons" class="row">
+			<button id="pause" 
+				class="col s5 l3 left waves-effect waves-light btn-large">Pause</button></li>
+			<button id="fire" 
+				class="col s5 offset-s2 l3 left waves-effect waves-light btn-large">Fire</button></li>
+			<button id="finish" 
+				class="col s5 l3 left waves-effect waves-light btn-large">Finish</button></li>
+			<button id="stop" 
+				class="col s5 offset-s2 l3 left waves-effect waves-light btn-large">Stop</button></li>
+		</div>
+	</div>
+	<script src="optimer.min.js"></script>
+	<script src="script.js"></script>
+  </body>
+ </html>

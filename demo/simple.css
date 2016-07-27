@@ -1,0 +1,25 @@
+html, body {
+	margin: 0px;
+}
+
+#buttons {
+	max-width: 600px;
+	width: auto;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+h1 {
+	margin-bottom: 60px; 
+	font-size: 84; 
+	border-bottom: 5px solid lime;
+	border-color: #26a69a;
+}
+
+li {
+	list-style-type: none;
+}
+
+input[type=range] {
+	width: 75%;
+}
