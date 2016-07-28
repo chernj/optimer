@@ -1,0 +1,23 @@
+{
+  "name": "optimer.js",
+  "version": "1.0.0",
+  "description": "Lightweight, accurate and robust timers library",
+  "main": "optimer.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chernj/optimer.git"
+  },
+  "keywords": [
+    "timer",
+    "accurate"
+  ],
+  "author": "Jonathan Chernysh <jon@chernysh.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chernj/optimer/issues"
+  },
+  "homepage": "https://github.com/chernj/optimer#readme"
+}
