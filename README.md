@@ -1,4 +1,4 @@
-# optimer
+# optimer.js
 
 A lightweight and reliable library that allows you to do a whole lot more with timers
 
